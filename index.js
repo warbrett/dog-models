@@ -1,7 +1,7 @@
 var fs = require('fs');
 var path = require('path');
 
-function dirToArray(dirname){
+function dogModels(dirname){
 
   var exportArray = [];
   var files = fs.readdirSync(dirname);
@@ -9,12 +9,12 @@ function dirToArray(dirname){
   files.forEach(function(file){
     var item = path.join(dirname, file);
 
-    fileObj = require(item);
+    exportObj = require(item);
 
-    exportArray.push(file);
+    exportArray.push(exportObj);
   });
 
   return exportArray;
 }
 
-module.exports = dirToArray;
+module.exports = dogModels;

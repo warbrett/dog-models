@@ -1,19 +1,19 @@
 {
-  "name": "require-dir-array",
+  "name": "dog-models",
   "version": "1.0.0",
-  "description": "Allows you to specify a directory assigning the exports of each file to an array key. Useful for models with dogwater.",
+  "description": "Allows you to specify a directory pushing the exports of each file to an array. Useful for waterline models with dogwater.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/warbrett/require-dir-array.git"
+    "url": "https://github.com/warbrett/dog-models.git"
   },
   "author": "Brett Warner <brett@warbrett.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/warbrett/require-dir-array/issues"
+    "url": "https://github.com/warbrett/dog-models/issues"
   },
-  "homepage": "https://github.com/warbrett/require-dir-array"
+  "homepage": "https://github.com/warbrett/dog-models"
 }

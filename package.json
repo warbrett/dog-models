@@ -1,0 +1,19 @@
+{
+  "name": "require-dir-array",
+  "version": "1.0.0",
+  "description": "Allows you to specify a directory assigning the exports of each file to an array key. Useful for models with dogwater.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/warbrett/require-dir-array.git"
+  },
+  "author": "Brett Warner <brett@warbrett.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/warbrett/require-dir-array/issues"
+  },
+  "homepage": "https://github.com/warbrett/require-dir-array"
+}
